@@ -3,5 +3,6 @@
 
 int main() {
   kv_table* entry1 = kv_init(3);
-  printf("%p", entry1);
+  printf("%p\n", entry1);
+  printf("%d\n", entry1->capacity);
 }
